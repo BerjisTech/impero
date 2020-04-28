@@ -24,7 +24,8 @@
         android:screenOrientation="portrait"
         android:theme="@style/AppCustomTheme.NoActionBar"
         android:windowSoftInputMode="adjustPan">
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".ProfileActivity" />
         <activity android:name=".FeedActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

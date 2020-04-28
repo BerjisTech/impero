@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (restorePrefData()) {
 
-            Intent mainActivity = new Intent(getApplicationContext(),ProfileActivity.class );
+            Intent mainActivity = new Intent(getApplicationContext(),SettingsActivity.class );
             startActivity(mainActivity);
             finish();
 
