@@ -2,4 +2,7 @@
     <string name="app_name">Impero</string>
     <string name="banner_ad_unit_id">ca-app-pub-6517119365777306~4044263318</string>
     <string name="feeds">Feeds</string>
+    <string name="my_profile">My Profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">username</string>
 </resources>
