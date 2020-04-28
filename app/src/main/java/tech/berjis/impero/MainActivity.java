@@ -18,6 +18,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
     TextView tvSkip;
     ConstraintLayout rootView;
 
+    FirebaseDatabase firebaseDatabase;
+    FirebaseAuth mAuth;
+    DatabaseReference dbRef;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,17 +51,24 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
+        if (firebaseDatabase == null) {
+            firebaseDatabase = FirebaseDatabase.getInstance();
+        }
+
+        mAuth = FirebaseAuth.getInstance();
+        dbRef = FirebaseDatabase.getInstance().getReference();
+        dbRef.keepSynced(true);
 
         // when this activity is about to be launch we need to check if its openened before or not
 
-        /*if (restorePrefData()) {
+        if (restorePrefData()) {
 
             Intent mainActivity = new Intent(getApplicationContext(),FeedActivity.class );
             startActivity(mainActivity);
             finish();
 
 
-        }*/
+        }
 
         setContentView(R.layout.activity_main);
 
