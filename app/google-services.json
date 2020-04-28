@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "37214879660",
+    "firebase_url": "https://impero-d1f26.firebaseio.com",
+    "project_id": "impero-d1f26",
+    "storage_bucket": "impero-d1f26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37214879660:android:9d6ee64109d6ebcd168409",
+        "android_client_info": {
+          "package_name": "tech.berjis.impero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37214879660-kqm5sgamgqkcptnf4m8o72dm88enkfuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.berjis.impero",
+            "certificate_hash": "5317beb1cbe703c6197a3e8dbcfb88be500ca994"
+          }
+        },
+        {
+          "client_id": "37214879660-mhlfn2fodvj00lp9f87iimfgrok0fmn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIOaT6enu3BGrcXo8ebBa2ld0Rg9iKXK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37214879660-mhlfn2fodvj00lp9f87iimfgrok0fmn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
