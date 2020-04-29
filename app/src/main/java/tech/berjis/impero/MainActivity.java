@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (restorePrefData()) {
 
-            Intent mainActivity = new Intent(getApplicationContext(), ChangePhoneNumber.class );
+            Intent mainActivity = new Intent(getApplicationContext(), CommentsActivity.class );
             startActivity(mainActivity);
             finish();
 
