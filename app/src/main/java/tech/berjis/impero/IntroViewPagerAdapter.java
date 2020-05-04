@@ -4,8 +4,6 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
@@ -14,10 +12,10 @@ import java.util.List;
 
 public class IntroViewPagerAdapter extends PagerAdapter {
 
-    Context mContext;
-    List<ScreenItem> mListScreen;
+    private Context mContext;
+    private List<ScreenItem> mListScreen;
 
-    public IntroViewPagerAdapter(Context mContext, List<ScreenItem> mListScreen) {
+    IntroViewPagerAdapter(Context mContext, List<ScreenItem> mListScreen) {
         this.mContext = mContext;
         this.mListScreen = mListScreen;
     }

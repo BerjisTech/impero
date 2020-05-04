@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Impero</string>
-    <string name="banner_ad_unit_id">ca-app-pub-6517119365777306~4044263318</string>
     <string name="feeds">Feeds</string>
     <string name="my_profile">My Profile</string>
     <string name="full_name">Full Name</string>
@@ -14,10 +13,21 @@
     <string name="logout">Logout</string>
     <string name="save_changes">Save changes</string>
     <string name="write_a_comment">Write a comment</string>
-    <string name="comments">Comments</string>
+    <string name="next">Next</string>
     <string name="create_post">Create Post</string>
     <string name="share">Share</string>
     <string name="back_icon">Back Icon</string>
-    <string name="start_writing">Start writing</string>
-    <string name="plus">+</string>
+    <string name="start_writing">Start Writing</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="verify_your_number">Verify Your Number</string>
+    <string name="please_enter_your_phone_number_below_to_proceed">Please enter your phone number below to proceed</string>
+    <string name="your_phone_number_here">Your phone number here</string>
+    <string name="register">Register</string>
+    <string name="wait_for_automatic_registration">Wait for automatic registration</string>
+    <string name="messages">Messages</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="your_user_name">Your User Name</string>
 </resources>

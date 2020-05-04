@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "37214879660-a96t41etqp5fisa5n7rpgqqqkuna7t8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.berjis.impero",
+            "certificate_hash": "1aa105ecab722b7140a3fc414fb50c8516848bb9"
+          }
+        },
+        {
           "client_id": "37214879660-kqm5sgamgqkcptnf4m8o72dm88enkfuh.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
